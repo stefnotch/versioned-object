@@ -7,12 +7,15 @@
   "author": "Stefnotch",
   "type": "module",
   "exports": {
-    ".": "./index.js"
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "scripts": {
     "build": "tsc",
     "test": "exit 0",
-    "release": "np"
+    "release": "npm run build && np"
   },
   "files": [
     "dist"
