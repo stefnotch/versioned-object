@@ -1,6 +1,6 @@
 {
   "name": "versioned-object",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple JSON versioning schema with a fluent interface for adding migrations",
   "license": "BSD-3-Clause",
   "repository": "https://github.com/stefnotch/versioned-object",
